@@ -223,10 +223,12 @@ i.scroll:hover {
 	
   .header {
 	background: url(../img/holden.jpg) no-repeat center center scroll; 
+  
   }
-  #top {
+  .header #top {
     width: 100%;
     height: 20%;
+    
   }
   .callout {
 	background: url(../img/tree.jpg) no-repeat bottom center scroll; 
