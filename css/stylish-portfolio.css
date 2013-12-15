@@ -165,7 +165,9 @@ i.service-icon {
   -o-background-size: cover;
   background-size: cover;
 }
-
+#contact a {
+  color: #ffffff;
+}
 /* Portfolio */
 
 .portfolio {
@@ -182,7 +184,10 @@ i.service-icon {
 
 
 /* Call to Action */
-
+#border {
+  border: 1px solid white;
+  border-radius: 10px;
+}
 .call-to-action {
   color: #ffffff;
   background: #0a5175;
