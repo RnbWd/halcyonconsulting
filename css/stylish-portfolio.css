@@ -229,7 +229,7 @@ i.scroll:hover {
     height: 20%;
   }
   .callout {
-	background: url(../img/tree.jpg) no-repeat bottom center fixed; 
+	background: url(../img/tree.jpg) no-repeat bottom center scroll; 
   }
 
   .map {
