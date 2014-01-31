@@ -136,6 +136,10 @@ body {
   color: #ffffff;
 }
 
+.services a {
+  color: #ffffff;
+}
+
 .service-item {
   margin-bottom: 15px;
 }
@@ -150,6 +154,11 @@ i.service-icon {
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
+}
+
+i.service-icon:hover {
+  opacity: 0.6;
+  color: #dddddd;
 }
 
 /* Callout */
