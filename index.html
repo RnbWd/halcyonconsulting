@@ -16,10 +16,18 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
-  <body>
-
+  <body data-spy="scroll" data-target=".navbar-example">
+    <div class="navbar-example hidden-xs">
+      <ul class="nav nav-pills">
+        <li class="hidden"><a href="#top"></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
     <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle visible-xs"><i class="fa fa-bars"></i></a>
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -38,8 +46,7 @@
       <div class="vert-text">
         <h1><img id="top"src="img/halcyon-logo.png" alt="logo" class="img-rounded" width="656px" height="55px"/></h1>
         <h2><img id="bottom" src="img/halcyon-top.png" alt="logo" class="img-rounded" width="292px" height="272px"/></h2>
-        <a href="#contact" class="btn btn-primary btn-lg">Contact Info</a>
-        <h3>Coming Soon!!</h3> 
+        <a href="#about" id="down"><i class="fa fa-arrow-circle-o-down fa-3x"></i></a>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -67,44 +74,38 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <div class="service-item">
               <a href="#chem-dep"><i class="service-icon fa fa-flask" ></i></a>
               <h4>Chemical Dependency Consulting</h4>
-              <!-- Large screen, shorter text -->
-              <p class="visible-lg visible-md">Halcyon Consulting LLC. provides services ranging from program enhancement and medication assisted therapy (MAT) to integration into broader health systems.</p>
-              <!-- Small screen, longer text -->
-              <p class="visible-xs visible-sm">Halcyon Consulting LLC.  provides services ranging from program enhancement and medication assisted therapy (MAT) to integration into broader health systems.  Considering enhanced services, such as Residential Services, Partial Hospitalization Program? We can help your organization develop the framework for program expansion.</p>
+              <p>Halcyon Consulting LLC.  provides services ranging from program enhancement and medication assisted therapy (MAT) to integration into broader health systems.  Considering enhanced services, such as Residential Services, Partial Hospitalization Program? We can help your organization develop the framework for program expansion.</p>
             </div>
           </div>
-          <div class="col-md-2 text-center">
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <div class="service-item">
               <a href="#fac-train"><i class="service-icon fa fa-pencil"></i></a>
               <h4>Facilitated Training and Development</h4>
-              <!-- Large screen, shorter text -->
-              <p class="visible-lg visible-md">We will work with you to create the goals, outcomes and plans in order for you to grow your organization.</p>
-              <!-- Small screen, longer text -->
-              <p class="visible-xs visible-sm"> We will work with you to create the goals, outcomes and plans in order for you to grow your organization. Halcyon Consulting LLC recognizes that enhancing the skill base of your employees enhances the functioning and profitability of your organization. We offer a wide range of training and consultation services to improve interpersonal communication, problem solving, employee evaluation, selection and promotion.</p>
+              <p> We will work with you to create the goals, outcomes and plans in order for you to grow your organization. Halcyon Consulting LLC recognizes that enhancing the skill base of your employees enhances the functioning and profitability of your organization. We offer a wide range of training and consultation services to improve interpersonal communication, problem solving, employee evaluation, selection and promotion.</p>
             </div>
           </div>
-          <div class="col-md-2 text-center">
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <div class="service-item">
               <a href="#med-serv"><i class="service-icon fa fa-shield"></i></a>
               <h4>Mediation services</h4>
-              <!-- Large screen, shorter text -->
-              <p class="visible-lg visible-md">Halcyon Consulting provides mediation services for business, courts and HR departments.</p>
-              <!-- Small screen, longer text -->
-              <p class="visible-xs visible-sm">Halcyon Consulting provides mediation services for business, courts and HR departments.  Specializing in providing a neutral mediation services unencumbered by employee perceptions of bias.  All mediations are based on Transformative Theory of mediation focusing on engaging the participants is resolution, rather than imposed solution from external sources.  Mediation are face to face and voluntary.</p>
+              <p>Halcyon Consulting provides mediation services for business, courts and HR departments.  Specializing in providing a neutral mediation services unencumbered by employee perceptions of bias.  All mediations are based on Transformative Theory of mediation focusing on engaging the participants is resolution, rather than imposed solution from external sources.  Mediation are face to face and voluntary.</p>
             </div>
           </div>
-          <div class="col-md-2 text-center">
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <div class="service-item">
               <a href="#tob-free"><i class="service-icon fa fa-ban"></i></a>
               <h4>Tobacco Free Facilities</h4>
-              <!-- Large screen, shorter text -->
-              <p class="visible-lg visible-md">Halcyon Consulting LLC. can help you work through these issues and provide you with the roadmap for a successful transition to a tobacco free organization.</p>
-              <!-- Small screen, longer text -->
-              <p class="visible-xs visible-sm">Accepted use of Tobacco in behavioral health organization is slowly changing.  There are many forces at work for organizations to consider including long held beliefs about "one drug at a time"  staff resistance, loss of revenue, and patient compliance.  Halcyon Consulting LLC. can help you work through these issues and provide you with the roadmap for a successful transition to a tobacco free organization. This change process can be challenging for leaders,  supported training, consultation and planning are a must for successful integration.</p>
+              <p>Accepted use of Tobacco in behavioral health organization is slowly changing.  There are many forces at work for organizations to consider including long held beliefs about "one drug at a time"  staff resistance, loss of revenue, and patient compliance.  Halcyon Consulting LLC. can help you work through these issues and provide you with the roadmap for a successful transition to a tobacco free organization. This change process can be challenging for leaders,  supported training, consultation and planning are a must for successful integration.</p>
             </div>
           </div>
         </div>
@@ -215,6 +216,7 @@
         });
     </script>
     <script>
+    $('body').scrollspy({ target: '.navbar-example' });
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 

@@ -94,6 +94,10 @@ body {
   z-index: 1;
 }
 
+#contactbtn {
+  
+}
+
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
@@ -108,6 +112,20 @@ body {
   margin: 5px 5px 0 0;
 }
 
+#down {
+  color: #cccccc;
+  font-size: 36px;
+}
+#down:hover {
+  color: #aaaaaa;
+}
+.navbar-example {
+  top: 0;
+  right: 5px;
+  position: fixed;
+  z-index: 1;
+  margin-left: -40px;
+}
 /* Full Page Image Header Area */
 
 .header {
@@ -158,7 +176,7 @@ i.service-icon {
 
 i.service-icon:hover {
   opacity: 0.6;
-  color: #dddddd;
+  font-size: 70px;
 }
 
 /* Callout */
